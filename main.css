@@ -7,30 +7,24 @@ body {
   color: white;
 }
 h2.top-title {
-  font-family: "cronos-pro", sans-serif;
-  text-align: center;
-  font-size: 2em;
-};
-.bottom-explanation {
   font-family: "quiche-sans", sans-serif;
   text-align: center;
-font-weight: normal;
-position: fixed;
-bottom: 2em;
-width: 100%;
+  font-size: 2em;
 
-/* .explanation {
-  list-style: none;
-  /* padding-left: 0em;
-  padding-top: 76%; */
-  position: absolute;
-  font-size: x-small;
-  text-align: center;
-} */
+};
+
 .flickity-button {
   color: #ffffff;
   background: none;
 }
+.bottom-explanation {
+  font-family: "cronos-pro", sans-serif;
+  text-align: center;
+  font-weight: normal;
+  position: fixed;
+  bottom: 2em;
+  width: 100%;
+
 .website-title {
   /* position: absolute;
   padding-left: 23.5em; */
