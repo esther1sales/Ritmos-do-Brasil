@@ -1,6 +1,5 @@
 body {
   /* font-family: "mendl-sans-dawn", sans-serif; */
-  font-family: "cronos-pro", sans-serif;
   background-color: #004f0d;
   overflow: hidden;
 }
@@ -8,12 +7,12 @@ body {
   color: white;
 }
 h2.top-title {
-  font-family: "cronos-pro", sans-serif;
+  font-family: "quiche-sans", sans-serif;
   text-align: center;
   font-size: 2em;
 };
 .bottom-explanation {
-  font-family: "quiche-sans", sans-serif;
+  font-family: "cronos-pro", sans-serif;
   text-align: center;
 font-weight: normal;
 position: fixed;
