@@ -1,0 +1,156 @@
+body {
+  /* font-family: "mendl-sans-dawn", sans-serif; */
+  font-family: "cronos-pro", sans-serif;
+  background-color: #004f0d;
+  overflow: hidden;
+}
+.explanation {
+  list-style: none;
+  padding-left: 0em;
+  padding-top: 76%;
+  position: absolute;
+  font-size: x-small;
+  text-align: center;
+}
+.flickity-button {
+  color: #ffffff;
+  background: none;
+}
+.website-title {
+  position: absolute;
+  padding-left: 23.5em;
+  color: white;
+  font-size: x-large;
+  font-family: "quiche-sans", sans-serif;
+}
+.titles {
+  font-family: "quiche-sans", sans-serif;
+}
+.description {
+  font-size: smaller;
+}
+.state-content img {
+  width: 25%;
+  padding-right:1em;
+}
+.Carousel-img1 {
+    position: relative;
+    display: inline-block;
+  }
+
+  #image-button {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .state {
+    height:100vh;
+    position:relative;
+    width:30vw;
+    margin:1em;
+    /* background:red; */
+  }
+
+  .state .flag-img {
+    display:block;
+    position:absolute;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+    /* width: 900px; */
+     /* height: 700px;  */
+    width: 100%;
+
+  }
+  
+  .state-name {
+    position: relative;
+    
+    width: 100%;
+    height: 10%;
+    top:67vh;
+    text-align:center;
+    opacity:0;
+    text-align: center;
+    color: white;
+    font:100;
+    bottom: 0;
+    font-weight: 100;
+  }
+  
+  .state:hover .state-name {
+    opacity: 1;
+  }
+
+  .state:active .state-content {
+    opacity:1;
+  }
+
+.state-content {
+  box-sizing:border-box;
+  color:white;
+  border: none;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  padding:1em;
+  width:80%;
+  height: auto;
+  background: #01016b;
+  opacity:0;
+  z-index:200;
+  font-weight: 100;
+  font-style: light;
+  border: 1px solid white;
+  max-height:80vh;
+  overflow:scroll;
+
+  
+}
+
+.active .state-content {
+  opacity:1;
+}
+.artists { 
+  display: block;
+  width: 5vw;
+  height: 5vw;
+}
+.artists-info {
+  margin-right: 20px;
+  font-size: x-small;
+  list-style: none;
+  
+  
+}
+
+.carousel {
+  /* border:10px solid white; */
+  position:absolute;
+  width:100vw;
+  top:50%;
+  transform:translateY(-50%);
+}
+.albums {
+  /* padding-top: 10%;  */
+ font-size: smaller;
+ position:relative;
+  /* width: 20vw;
+  height: 20vw; */
+}
+#pernambuco { background: rgb(238, 167, 0); }
+#belem { background:rgb(6, 14, 93); }
+#sao-paulo { background: black;}
+#riograndedosul { background: #008717;}
+#bahia { background: rgb(179, 0, 0);}
+#rio { background: #00b7ff;}
