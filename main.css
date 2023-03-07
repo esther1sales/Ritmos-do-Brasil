@@ -4,10 +4,24 @@ body {
   background-color: #004f0d;
   overflow: hidden;
 }
+body {
+  color: white;
+}
+h2.top-title {
+  font-family: "quiche-sans", sans-serif;
+  text-align: center;
+  font-size: 2em;
+};
+.bottom-explanation {
+text-align: center;
+font-weight: normal;
+position: fixed;
+bottom: 2em;
+width: 100%;
 .explanation {
   list-style: none;
-  padding-left: 0em;
-  padding-top: 76%;
+  /* padding-left: 0em;
+  padding-top: 76%; */
   position: absolute;
   font-size: x-small;
   text-align: center;
@@ -17,8 +31,9 @@ body {
   background: none;
 }
 .website-title {
-  position: absolute;
-  padding-left: 23.5em;
+  /* position: absolute;
+  padding-left: 23.5em; */
+  text-align: center;
   color: white;
   font-size: x-large;
   font-family: "quiche-sans", sans-serif;
