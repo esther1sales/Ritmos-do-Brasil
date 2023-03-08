@@ -53,7 +53,8 @@ width: 100%;
   font-size: smaller;
 }
 .state-content img {
-  width: 25%;
+  width: 90%;
+  height:auto;
   padding-right:1em;
 }
 .Carousel-img1 {
@@ -142,6 +143,19 @@ width: 100%;
   
 }
 
+.artist-grid {
+  display:grid;
+  grid-template-columns:1fr 2fr;
+}
+
+
+label {
+  font-weight:bold;
+  text-transform:uppercase;
+  letter-spacing:0.05em;
+  font-size:0.75em;
+}
+
 .active .state-content {
   opacity:1;
 }
@@ -152,9 +166,9 @@ width: 100%;
 }
 .artists-info {
   margin-right: 20px;
-  font-size: x-small;
+  font-size: 15px;
   list-style: none;
-  
+  letter-spacing: 0.03em;
   
 }
 
@@ -166,11 +180,18 @@ width: 100%;
   transform:translateY(-50%);
 }
 .albums {
+  display:flex;
   /* padding-top: 10%;  */
  font-size: smaller;
  position:relative;
   /* width: 20vw;
   height: 20vw; */
+}
+
+.albums img {
+  width:100%;
+  width: 5vw;
+  height: 5vw;
 }
 #pernambuco { background: rgb(238, 167, 0); }
 #belem { background:rgb(6, 14, 93); }
@@ -178,3 +199,5 @@ width: 100%;
 #riograndedosul { background: #008717;}
 #bahia { background: rgb(179, 0, 0);}
 #rio { background: #00b7ff;}
+
+
